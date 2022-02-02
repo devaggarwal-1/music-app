@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@700&family=Mochiy+Pop+P+One&display=swap');
+
+
+.App{
+  font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+.main{
+  max-width: 50%;
+  margin: 200px auto;
+}
+
+.title{
+  max-width: 600px;
+  font-stretch: ultra-expanded;
+  font-weight: 500;
+}
+.input-f{
+  width: 500px;
+  margin: 0 10px 10px 0;
+  padding: 7px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.genre-sel{
+  padding: 5px;
+  outline: none;
+  border-radius: 2px;
+  color: rgb(230, 171, 171);
+}
+
+.link{
+  margin-top: 30px;
+  margin-left: 10%;
+}
+
+.submit-btn{
+  display: block;
+  margin: 10px 250px;
+  padding: 12px 20px;
+  font-weight: bolder;
+  border-radius: 7px;
+  border:none;
+  background-color: pink;
+  font-size: 1rem;
+}
+
+.submit-btn:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  background-color: rgba(255, 192, 203,0.7);
+  transition: ease-in 0.13s;
+}
+
+.title-2{
+  margin:20px 20px;
+  max-width: 50%;
+  border-bottom: 1px solid black;
+  padding-bottom: 2px;
+}
+
+.song-det{
+  margin: 25px 20px;
+  width: fit-content;
+  border-bottom: 2px solid blue;
+  
+}
+
+.nav{
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width:500px) {
+  .title{
+    width: 400px;
+  }
+  .link{
+    width: 400px;
+  }
+}
